@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3 text-center">Work Day Scheduler</h1>
+      <p class="lead text-center">A simple calendar app for scheduling your work day</p>
+      <p id="dateToday" class="lead"></p>
+    </header>
+      <div class="container">
+        
+        <div class="input-group row">
+          <span class="input-group-text hour">9am</span>          
+          <input type="text" class="form-control time-9am" id='9' aria-label="Text input for 9am" aria-describedby="button-9am">
+        <button class="btn btn-lg btn-outline-secondary saveBtn" type="button" id="button-9am" data-id='9'><i class="far fa-save"></i></button>
+        </div>
+
+        <div class="input-group row">
+          <span class="input-group-text hour">10am</span>          
+          <input type="text" class="form-control time-10am " id='10' aria-label="Text input for 10am" aria-describedby="button-10am">
+        <button class="btn btn-lg btn-outline-secondary saveBtn" type="button" id="button-10am" data-id='10'><i class="far fa-save"></i></button>
+        </div>
+
+        <div class="input-group row">
+          <span class="input-group-text hour">11am</span>          
+          <input type="text" class="form-control time-11am " id='11' aria-label="Text input for 11am" aria-describedby="button-11am">
+        <button class="btn btn-lg btn-outline-secondary saveBtn" type="button" id="button-11am" data-id='11'><i class="far fa-save"></i></button>
+        </div>
+
+        <div class="input-group row">
+          <span class="input-group-text hour">12pm</span>          
+          <input type="text" class="form-control time-12pm " id='12' aria-label="Text input for 12pm" aria-describedby="button-12pm">
+        <button class="btn btn-lg btn-outline-secondary saveBtn" type="button" id="button-12pm" data-id='12'><i class="far fa-save"></i></button>
+        </div>
+
+        <div class="input-group row">
+          <span class="input-group-text hour">1pm</span>          
+          <input type="text" class="form-control time-1pm " id='13' aria-label="Text input for 1pm" aria-describedby="button-1pm">
+        <button class="btn btn-lg btn-outline-secondary saveBtn" type="button" id="button-1pm" data-id='13'><i class="far fa-save"></i></button>
+        </div>
+
+        <div class="input-group row">
+          <span class="input-group-text hour">2pm</span>          
+          <input type="text" class="form-control time-2pm " id='14' aria-label="Text input for 2pm" aria-describedby="button-2pm">
+        <button class="btn btn-lg btn-outline-secondary saveBtn" type="button" id="button-2pm" data-id='14'><i class="far fa-save"></i></button>
+        </div>
+
+        <div class="input-group row">
+          <span class="input-group-text hour">3pm</span>          
+          <input type="text" class="form-control time-3pm " id='15' aria-label="Text input for 3pm" aria-describedby="button-3pm">
+        <button class="btn btn-lg btn-outline-secondary saveBtn" type="button" id="button-3pm" data-id='15'><i class="far fa-save"></i></button>
+        </div>
+
+        <div class="input-group row">
+          <span class="input-group-text hour">4pm</span>          
+          <input type="text" class="form-control time-4pm " id='16' aria-label="Text input for 4pm" aria-describedby="button-4pm">
+        <button class="btn btn-lg btn-outline-secondary saveBtn" type="button" id="button-4pm" data-id='16'><i class="far fa-save"></i></button>
+        </div>
+
+        <div class="input-group row">
+          <span class="input-group-text hour">5pm</span>          
+          <input type="text" class="form-control time-5pm " id='17' aria-label="Text input for 5pm" aria-describedby="button-5pm">
+        <button class="btn btn-lg btn-outline-secondary saveBtn" type="button" id="button-5pm" data-id='17'><i class="far fa-save"></i></button>
+        </div>
+
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>
